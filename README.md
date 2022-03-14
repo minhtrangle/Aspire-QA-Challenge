@@ -14,7 +14,7 @@ This is the QA challenge from Aspire
 
 ## How to run
 
-1. Clone repo as 
+1. Clone repo at: https://github.com/minhtrangle/Aspire-QA-Challenge.git
 2. Open Intellij and reload Maven dependencies
 3. Right click on **src/test/resources/testng.xml** and select **Run...**
 
