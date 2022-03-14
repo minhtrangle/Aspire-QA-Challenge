@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <listeners>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"></listener>
+
+    </listeners>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://aspireapp.odoo.com/"></parameter>
+    <parameter name="email" value="user@aspireapp.com"></parameter>
+    <parameter name="password" value="@sp1r3app"></parameter>
+    <test name="AspireTest">
+        <classes>
+            <class name="TestCases">
+                <methods>
+                    <include name="login"/>
+                    <include name="createProductAndUpdateQuantity"/>
+                    <include name="createManufacturingOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
