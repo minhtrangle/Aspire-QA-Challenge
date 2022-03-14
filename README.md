@@ -1,5 +1,5 @@
 # Aspire-QA-Challenge
-This is the QA challenge from Aspire
+This is the QA challenge from Aspire and the test scripts are developed base on the manual test cases in file **testcase.xlsx**
 
 ## Architecture
 * **Test pattern**: Page Object Model
